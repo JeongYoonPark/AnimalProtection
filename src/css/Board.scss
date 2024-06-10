@@ -1,0 +1,71 @@
+.Board{
+    .boardArea{
+        padding-bottom: 45px;
+        box-sizing: border-box;
+        width:90%;
+        margin: 0 auto;
+        background-color: #D9D9D9;
+        .searchArea{
+            display: inline-block;
+            float:right;
+            margin: 20px 0;
+            margin-right: 8px;
+            input{
+                width:205px;
+                height: 39px;
+                border:none;
+            }
+            .searchBtn{
+                margin-left: 10px;
+                width:62px;
+                height: 40px;
+                border:none;
+                border-radius: 8px;
+                background-color: #EEEEEE;
+                text-align: center;
+                float: right;
+                line-height: 40px;
+            }
+        }
+        table{
+            width:100%;
+            border-collapse: collapse;
+            border-top: 3px solid #000;
+            border-bottom: 3px solid #000;
+            td{
+                height: 48px;
+                box-sizing: border-box;
+                border:1px solid #000;
+                &:first-child{
+                    border-left: none;
+                }
+                &:last-child{
+                    border-right: none;
+                }
+            }
+            thead{
+                tr{
+                    
+                    border-bottom: 2px solid #000;
+                }
+            }
+        }
+        .pagingArea{
+            width:255px;
+            margin: 0 auto;
+            margin-top: 20px;
+            justify-content: space-between;
+            display: flex;
+            div{
+                width: 40px;
+                height: 40px;
+                box-sizing: border-box;
+                background-color: #fff;
+                border:1px solid #000;
+                font-size: 14px;
+                text-align: center;
+                line-height: 40px;
+            }
+        }
+    }
+}
