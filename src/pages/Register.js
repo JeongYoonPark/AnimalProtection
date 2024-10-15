@@ -3,6 +3,7 @@ import Logo from "./../assets/img/Logo.png"
 import { Link } from 'react-router-dom';
 
 function Register(){
+    // axios.post('localhost:4000/')
     return(
         <div className="Register">
             <div className="registerBox">
